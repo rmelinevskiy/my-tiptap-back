@@ -11,13 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hocuspocus/extension-database": "^2.13.5",
+    "@hocuspocus/extension-throttle": "^2.13.5",
     "@hocuspocus/server": "^2.13.5",
+    "@hocuspocus/transformer": "^2.13.5",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "express-ws": "^5.0.2",
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.12.0",
+    "pg-pool": "^3.6.2",
     "sequelize": "^6.37.3",
     "ws": "^8.18.0"
   }
